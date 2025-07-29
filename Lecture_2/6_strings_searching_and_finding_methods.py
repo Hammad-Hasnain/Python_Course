@@ -1,6 +1,6 @@
 # ------------------------------ String Searching and Finding Methods ------------------------------
 """
-| Method         | Required Arguments  | Optional Arguments        | Default Values of Optional Args         |
+| Method         | Required Arguments  | Optional Arguments         | Default Values of Optional Args          |
 |----------------|---------------------|----------------------------|------------------------------------------|
 | count()        | substring           | start=0, end=len(str)      | start=0, end=length of string            |
 | find()         | substring           | start=0, end=len(str)      | start=0, end=length of string            |
