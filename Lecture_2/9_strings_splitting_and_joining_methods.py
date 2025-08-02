@@ -1,6 +1,6 @@
 # ------------------------------ Splitting and Joining Methods ------------------------------
 
-# 1. split(sep=None, maxsplit=-1): Splits the string into a list of substrings using a separator.
+# 1. split(separator:optional, maxsplit:optional): Splits the string into a list of substrings using a separator.
 str1 = "apple,banana,cherry"
 # Splits by comma
 splitStr1 = str1.split(",")
@@ -17,7 +17,7 @@ print(splitStr1c)  # Output: ['one', 'two', 'three']
 
 
 
-# 2. rsplit(sep=None, maxsplit=-1): Same as split(), but starts splitting from the right.
+# 2. rsplit(separator:optional, maxsplit:optional): Same as split(), but starts splitting from the right.
 str2 = "apple,banana,cherry"
 # Splits from the right with maxsplit=1
 splitStr2 = str2.rsplit(",", 1)
