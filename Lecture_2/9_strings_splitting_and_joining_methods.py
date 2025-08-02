@@ -57,7 +57,7 @@ joinedStr3 = "-".join(words)
 print(joinedStr3)  # Output: "apple-banana-cherry"
 
 
-
+# Note: "" strign can't be passed.
 # 5. partition(separator): Splits the string at the first occurrence of the separator and returns a tuple of three elements.
 str = "username:pass:word"
 part_result1 = str.partition(":")
