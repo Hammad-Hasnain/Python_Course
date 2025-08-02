@@ -55,3 +55,27 @@ print(joinedStr2)  # Output: "apple banana cherry"
 # Join with hyphen
 joinedStr3 = "-".join(words)
 print(joinedStr3)  # Output: "apple-banana-cherry"
+
+
+
+# 5. partition(separator): Splits the string at the first occurrence of the separator and returns a tuple of three elements.
+str = "username:pass:word"
+part_result1 = str.partition(":")
+print(part_result1)  # Output: ('username', ':', 'pass:word')
+
+# Separator not found — returns (original, '', '')
+str = "nopunctuation"
+part_result2 = str.partition(":")
+print(part_result2)  # Output: ('nopunctuation', '', '')
+
+
+
+# 6. rpartition(separator): Splits the string at the last occurrence of the separator and returns a tuple of three elements.
+str = "folder/subfolder/file"
+rpart_result1 = str.rpartition("/")
+print(rpart_result1)  # Output: ('folder/subfolder', '/', 'file')
+
+# Separator not found — returns ('', '', original)
+str = "justastring"
+rpart_result2 = str.rpartition("/")
+print(rpart_result2)  # Output: ('', '', 'justastring')
