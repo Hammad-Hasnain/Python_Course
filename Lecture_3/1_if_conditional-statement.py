@@ -1,5 +1,11 @@
-# Note: The code block inside `if` is defined by indentation (4 spaces or 1 tab is the standard).
+# Note: In Python, indentation (usually 4 spaces or 1 tab) defines code blocks and incorrect indentation will cause an IndentationError.
+
 # `if` is a conditional statement that allows the program to take a decision when a condition is fulfilled (True).
+# Syntax:
+"""
+if condition:
+    code block if condition is True
+"""
 
 age = 22
 
