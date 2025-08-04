@@ -4,9 +4,9 @@
 # Syntax:
 """
 if condition:
-    code block if condition is True
+    #code block if condition is True
 else:
-    code block if condition is False
+    #code block if condition is False
 """
 
 userAge = int(input('Enter your age.'))
