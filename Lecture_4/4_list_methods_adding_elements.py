@@ -10,7 +10,7 @@ print(fruits)  # Output: ['apple', 'banana', 'cherry', 'orange']
 
 
 # ------------------------------ What if we try to add two elements or keep it empty using append() ?? 🤔💭 ------------------------------
-# fruits.append("orange","almond")  # ❌err => TypeError: list.append() takes exactly one argument (2 given)
+# fruits.append("orange","blueberry")  # ❌err => TypeError: list.append() takes exactly one argument (2 given)
 # fruits.append()  # ❌err => TypeError: list.extend() takes exactly one argument (0 given)
   
 
