@@ -27,8 +27,8 @@ print(cars)
 
 
 # ------------------------------ What if we try to add two elements or keep it empty using extend() ?? 🤔💭 ------------------------------
-# alphabets.extend('d','e')  # ❌err => TypeError: list.append() takes exactly one argument (2 given)
-# fruits.extend()  # ❌err => TypeError: list.extend() takes exactly one argument (0 given)
+# cars.extend('Audi', 'Ford')  # ❌err => TypeError: list.append() takes exactly one argument (2 given)
+# cars.extend()  # ❌err => TypeError: list.extend() takes exactly one argument (0 given)
 
 
 
@@ -44,6 +44,6 @@ countries.insert( 10,"Russia")
 print(countries)  # Output: ['Pakistan', 'India', 'China', 'USA', 'Russia'] i.e. Index > length, so 'Russia' appended at end
 
 
-# ------------------------------ What if we try to add element at an negative index ?? 🤔💭 ------------------------------
+# ------------------------------ What if we try to add element at a negative index ?? 🤔💭 ------------------------------
 countries.insert( -1 ,"Indonesia")
 print(countries)  # Output: ['Pakistan', 'India', 'China', 'USA', 'Indonesia', 'Russia'] i.e. # -1 inserts before last element, -2 before second last, etc.
