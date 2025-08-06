@@ -1,5 +1,5 @@
 # List is a versatile and commonly used `built-in` data type that allows you to store a collection of items in a single variable.
-# Key characterstics: Ordered, mutable, allows duplicate values, can contain any data type. 
+# Key characterstics: Ordered, mutable, allows duplicate values, can contain any data type(Heterogeneous). 
 # +ve indexes  start from 0 to nth (left-right)
 # -ve indexes  start from nth to -1 (right-left)
 
