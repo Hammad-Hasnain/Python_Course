@@ -14,8 +14,6 @@ Rules:
   → Tuples (only if the elements inside the tuple are immutable) 
   → Booleans (True, False) 
   → Frozensets (immutable version of a set)
-
-
 """
 
 
