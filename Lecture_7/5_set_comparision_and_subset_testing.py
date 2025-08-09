@@ -21,7 +21,7 @@ print(set_a.issubset([1, 2, 3]))  # Output: True
 print(set_a.issubset("123"))  # Output: False ('1' and '2' as characters; '1' != 1)
 
 
-#  Two ways for subset:
+#  Two ways for supersetset:
 #   → Operator : >= (or > for proper subset)
 #   → Method : .issuperset()
 
