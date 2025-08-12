@@ -37,6 +37,17 @@ fruits = ["apple", "banana", "cherry"]
 print(enumerate(fruits))  # Output: <enumerate object at 0x0000024AB4DE9C10>
 print(list(enumerate(fruits)))  # Output: [(0, 'apple'), (1, 'banana'), (2, 'cherry')]
 
+#  ------------- We will cover `unpacking` later -------------
+# *** Without unpacking ***
+for pair in enumerate(fruits):
+    print(pair[0], pair[1])
+
+# Output: 0 apple
+#         1 banana
+#         2 cherry
+
+
+# *** With unpacking ***
 for index, fruit in enumerate(fruits):
     print(index , fruit)
 
