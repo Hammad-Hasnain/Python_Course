@@ -1,0 +1,1 @@
+This is demo text file for python file I/O learning.
